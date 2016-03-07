@@ -13,6 +13,9 @@ Flowdock style inspired by Solarized Dark color palette designed by Ethan Schoon
 
 ## Changelog
 
+#### Version 0.2
+* Fixed private chat title color
+
 #### Version 0.1
 * Chat messages
 * Chat mentions

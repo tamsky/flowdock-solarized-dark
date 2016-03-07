@@ -1,7 +1,7 @@
 @-moz-document url-prefix("https://www.flowdock.com") {
 
 /**
-* Flowdock Solarized Dark Grey v0.1 (2016-03-07)
+* Flowdock Solarized Dark Grey v0.2 (2016-03-07)
 *
 * https://userstyles.org/styles/125297/flowdock-solarized-dark-grey
 * https://github.com/ristomatti/flowdock-solarized-dark
@@ -24,7 +24,7 @@
 
 .tab-name {
 	background: none;
-   color: #93a1a1;
+	color: #93a1a1;
 }
 
 .nav-footer {
@@ -88,6 +88,10 @@
 .toolbar-link,
 #search-form-item {
 	border: none;
+}
+
+.user-name {
+	color: #93a1a1;
 }
 
 .active .toolbar-toggle {
