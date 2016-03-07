@@ -104,7 +104,7 @@
 }
 
 .close-icon {
-	fill: #93a1a1;  
+	fill: #93a1a1;
 }
 
 /* Chat messages */
@@ -148,9 +148,14 @@ li .input-button {
 	border-color: #272727;
 }
 
-#single, #thread {
-	background: #fff;
-	overflow: hidden;
+/* Chat message links */
+.chat-message a {
+	color: #268bd2 !important; /* blue */
+}
+
+/* Chat own name highlight */
+.chat-message-list.emphasize-me .me .message-author {
+	color: #859900 !important; /* green */
 }
 
 .timestamp {
@@ -167,6 +172,7 @@ li .input-button {
 	background: none;
 	border: none;
 }
+
 .keycode {
 	border: 1px solid #93a1a1;
 }
