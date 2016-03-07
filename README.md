@@ -9,7 +9,7 @@ Flowdock style inspired by Solarized Dark color palette designed by Ethan Schoon
 
 ## Preview
 
-Preview screenshot will be available soon.
+![Flowdock Solarized Dark Grey preview](https://raw.githubusercontent.com/ristomatti/flowdock-solarized-dark/master/example-screenshot.jpg)
 
 ## Changelog
 
