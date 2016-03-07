@@ -159,8 +159,9 @@ li .input-button {
 	color: #859900 !important; /* green */
 }
 
-/* New messages title */
-.chat-message .last-read-message-text {
+/* New messages title, user typing text */
+.chat-message .last-read-message-text,
+.typing-users {
 	background: #272727;
 	color: #586e75;
 }
