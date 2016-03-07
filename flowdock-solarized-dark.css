@@ -142,6 +142,7 @@ li .input-button {
 	background: #1b1b1b;
 }
 
+/* Chat mentions */
 .tag.mention {
 	background: #272727 !important;
 	color: #93a1a1 !important;
@@ -158,6 +159,13 @@ li .input-button {
 	color: #859900 !important; /* green */
 }
 
+/* New messages title */
+.chat-message .last-read-message-text {
+	background: #272727;
+	color: #586e75;
+}
+
+/* Message timestamp */
 .timestamp {
 	color: #586e75 !important;
 }
