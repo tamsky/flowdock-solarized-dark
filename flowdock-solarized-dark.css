@@ -9,7 +9,36 @@
 * The MIT License (MIT)
 * https://opensource.org/licenses/MIT
 *
-* (c) 2016 Ristomatti Airo <ristomatti@kallio.io>*
+* (c) 2016 Ristomatti Airo <ristomatti@kallio.io>
+*
+* 
+* Solarized dark grey colors
+*
+*   background0  #141414
+*   background1  #212121
+*   background2  #3a3a3a
+*
+* Solarized dark base colors
+*
+*   base03       #002b36
+*   base02       #073642
+*   base01       #586e75
+*   base00       #657b83
+*   base0        #839496
+*   base1        #93a1a1
+*   base2        #eee8d5
+*   base3        #fdf6e3
+*
+* Solarized accent colors
+*
+*   yellow       #b58900
+*   orange       #cb4b16
+*   red          #dc322f
+*   magenta      #d33682
+*   violet       #6c71c4
+*   blue         #268bd2
+*   cyan         #2aa198
+*   green        #859900
 */
 
 /* Common background and text colors */
@@ -22,10 +51,28 @@
 	background: #272727;
 }
 
-.tab-name {
+.tab .tab-name {
 	background: none;
 	color: #93a1a1;
 }
+
+/* Flow tab colors */
+.flow-list .tab:nth-of-type(1) .tab-avatar { background-color: #6c71c4 !important; }
+.flow-list .tab:nth-of-type(2) .tab-avatar { background-color: #b58900 !important; }
+.flow-list .tab:nth-of-type(3) .tab-avatar { background-color: #cb4b16 !important; }
+.flow-list .tab:nth-of-type(4) .tab-avatar { background-color: #d33682 !important; }
+.flow-list .tab:nth-of-type(5) .tab-avatar { background-color: #859900 !important; }
+.flow-list .tab:nth-of-type(6) .tab-avatar { background-color: #dc322f !important; }
+.flow-list .tab:nth-of-type(7) .tab-avatar { background-color: #2aa198 !important; }
+.flow-list .tab:nth-of-type(8) .tab-avatar { background-color: #268bd2 !important; }
+.flow-list .tab:nth-of-type(9) .tab-avatar { background-color: #6c71c4 !important; }
+.flow-list .tab:nth-of-type(10) .tab-avatar { background-color: #b58900 !important; }
+.flow-list .tab:nth-of-type(11) .tab-avatar { background-color: #cb4b16 !important; }
+.flow-list .tab:nth-of-type(12) .tab-avatar { background-color: #d33682 !important; }
+.flow-list .tab:nth-of-type(13) .tab-avatar { background-color: #859900 !important; }
+.flow-list .tab:nth-of-type(14) .tab-avatar { background-color: #dc322f !important; }
+.flow-list .tab:nth-of-type(15) .tab-avatar { background-color: #2aa198 !important; }
+.flow-list .tab:nth-of-type(16) .tab-avatar { background-color: #268bd2 !important; }
 
 .nav-footer {
 	background: none;
@@ -39,6 +86,10 @@
 .static-header, .floating-header {
 	background: #1b1b1b;
 	border-bottom: none;
+}
+
+#user-list {
+	background-color: #141414 !important;
 }
 
 #toolbar,
