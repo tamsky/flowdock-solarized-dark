@@ -1,4 +1,4 @@
-# Flowdock Solarized Dark Grey style
+# Flowdock Without the Dark Sidebar
 
 Flowdock style inspired by Solarized Dark color palette designed by Ethan
 Schoonover.
